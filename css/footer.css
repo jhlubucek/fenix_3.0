@@ -1,0 +1,12 @@
+footer {
+    background: var(--main-color-1);
+    max-width: 1000px;
+    margin: auto;
+    clear: both;
+    text-align: right;
+    color: var(--main-color-3);
+}
+
+footer p {
+    padding: 20px;
+}

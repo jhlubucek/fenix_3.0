@@ -1,0 +1,138 @@
+:root{
+    --main-color-1: #3f3f3f;
+    --main-color-2: #ffee7b;
+    --main-color-3: #bfbfbf;
+    --bg-color: #bdbdbd;
+    --decoration-color: #faf773;
+
+}
+
+html,body,div,h1,h2,h3,h4,h5,h6,nav,section
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+img{display: block}
+h1{font-size: 27px;}
+h2{font-size: 21px;}
+p{display: block; margin: 10px 0 0;}
+a { text-decoration: underline var(--decoration-color); color: var(--decoration-color);}
+body,html {
+    line-height: 1.2;
+    font-family: arial, serif;
+    background: url("../pictures/path.jpg") no-repeat fixed #222222;
+    background-position-x: center;
+}
+div.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+div.bg-warhammer{background-image: url('../pictures/warhammer.jpg');}
+div.bg-mtg{background-image: url('../pictures/mtg.jpg');}
+div.bg-dnd{background-image: url('../pictures/dnd.jpg');}
+div.bg-main{background-image: url('../pictures/dice.jpg');}
+div.bg-events{background-image: url('../pictures/akce.jpg');}
+
+
+
+div.mainContent {
+    max-width: 1000px;
+    display: block;
+    background-color: var(--bg-color);
+    margin: auto;
+    height: initial;
+}
+
+main {
+    float: left;
+    max-width: 1000px;
+    background-color: var(--bg-color);
+    margin: auto;
+    display: block;
+    height: initial;
+}
+
+main > p {
+    margin-left:  50px;
+    margin-right: 50px;
+    max-width: 900px;
+    border: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+main > h2, h3{
+    margin-left: 50px;
+}
+
+main > h1{
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-align: center;
+}
+
+#left-side {
+    float: left;
+    width: 425px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#right-side {
+    float: inherit;
+    width: 425px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+img.left-side{
+    max-width: 425px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+img.right-side{
+    max-width: 425px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+main > a > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-height: 400px;
+    max-width: 700px;
+    margin-left: 50px;
+}
+
+article h2 {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+address {
+    padding: 10px 20px 30px 10px;
+}
+
+body > section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 0;
+    text-align: center;
+}
+
+img.logo{
+    height: 100px;
+    position: relative;
+    top: 10px;
+    margin: auto;
+}
+
+address {
+    font: inherit;
+}

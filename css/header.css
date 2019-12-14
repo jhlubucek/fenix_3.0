@@ -1,0 +1,58 @@
+header {
+    background: var(--main-color-1);
+    padding: 20px 30px;
+    max-width: 940px;
+    margin: auto;
+}
+
+div #nav{
+    margin: auto;
+}
+
+nav {
+    display: inline-block;
+    margin: auto;
+}
+
+ul li a {
+    background: var(--main-color-1);
+    padding: 2px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--main-color-2);
+    border-radius: 8px;
+}
+
+ul li a:hover, #current a:hover, #current a{
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 2px;
+}
+
+#logo{
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+}
+
+#line{
+ display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 5px auto; padding: 0;
+    width: 250px;
+}
